@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image:url("websitebg.jpg");
+}
+
+#sidemenu {
+	height: 100%;
+	width: 100px;
+	}
+.cornerPic img{
+	float:left;
+	width: 125px;
+	postion: fixed;
+	border-radius: 50%;
+	border-color: white;
+	border-style: solid;
+}
+
+#page-top {
+		width:100%;
+		postion: relative;
+	}
+
+#titletext {
+	font-size: 30px;
+	font-family:Raleway;
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+}
+
+#sitenav {
+	background-color:grey;
+	width:100px;
+	border-radius: 10px;
+	display:block;
+	float:left;
+}
+
+#sitenav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	}
+
+#sitenav li {	
+	font-family:Raleway;
+	padding:0px 0px 5px 5px;
+	font-weight:bold;
+
+	}
+
+#sitenav li a {
+	text-decoration:none;
+	text-align:left;
+	}
+#sitenav li a:hover {
+	color:white;
+	}
+	
+.content {
+	display: inline-block;
+	}
+

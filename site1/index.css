@@ -1,0 +1,86 @@
+/* CSS Document */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+  padding: 0;
+}
+
+/* Header */
+
+.header video {
+  width: 100%;
+}
+
+.header {
+  height: 600px;
+  background-color: black;
+  padding-top: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.header img {
+  height: 60px;
+  float: left;
+}
+
+.header .row {
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.header li {
+  display: inline;
+}
+
+.header .btn {
+  margin: 10px;
+}
+
+.btn-primary {
+  background: green;
+  border-color: green;
+}
+
+/* Jumbotron */
+
+.jumbotron h1{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.jumbotron .row {
+  margin-top: 50px;
+}
+
+.jumbotron .row .col-md-4 {
+  text-align: center;
+}
+
+.row p {
+  margin-top: 15px;
+}
+
+/* Footer */
+
+.footer {
+  height:50px;
+  background-color: black;
+  color: white;
+}

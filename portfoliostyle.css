@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	height: 100%;
+	}
+
+body{
+	background-color: #C4B8AD;
+	min-height: 100%;
+	margin:0;
+}
+
+.containter {
+	width: 960px;
+	margin: 0 auto;
+	}
+
+h1 {
+	font-family:Raleway;
+	}
+
+/* Top third of page --------------------------------- */
+#topcontainer{
+	width: 100%;
+	height: 300px;
+	background: url(akame.png) center -125px;
+	position: relative;
+	}
+
+#sidebar{
+	height: 100%;
+	width: 150px;
+	display: inline-block;
+	float:left;
+	}
+
+#sidebar img {
+	border-radius: 0%;
+	border-color: white;
+	border-style: solid;
+	display: block;
+	width:160px;
+	height: 294px;
+	margin-left:auto;
+	margin-right: auto;
+	}
+
+#sitenav {
+	display:inline;
+}
+
+#sitenav ul {
+	list-style-type: none;
+	padding-left: 60px;
+	}
+
+#sitenav li {
+	font-family:Raleway;
+	padding:0px 0px 5px 5px;
+	font-weight:bold;
+	display: inline;
+	}
+
+#sitenav li a {
+	text-decoration:none;
+	text-align:left;
+	color: white;
+	}
+
+#sitenav li a:hover {
+	color:grey;
+	}
+
+.pagetitle{
+	width:700px;
+	display: inline-block;
+	margin-top: 20px;
+	}
+
+.pagetitle h1{
+	font-family: Raleway;
+	font-size: 90px;
+	padding-left: 60px;
+	}
+
+	#social {
+	height: 300px;
+	width: 5%;
+	display:inline-block;
+	margin-left: 30%;
+	position: fixed;
+	}
+
+#social ul {
+	list-style-type: none;
+	}
+
+#social li {
+	padding: 10px;
+	opacity: 0.5;
+	}
+
+#social img {
+	height:50px;
+	}
+
+#social li:hover{
+	opacity: 1;
+	}
+
+/* Middle break of page ----------------------------- */
+.supporting {
+	background-color: black;
+	height: 80px;
+	width: 100%;
+	margin:0;
+	display: inline-block;
+	}
+
+.supporting h1 {
+	color: white;
+	font-weight: 400px;
+	font-size: 43px;
+	}
+
+.supporting .col {
+	float: left;
+	text-align: center;
+	width: 30%;
+	}
+
+
+/* Content and material ------------------------------ */
+
+.content{
+	margin-top:0px;
+	width: 95%;
+	height: 475px;
+	display:inline-block;
+	overflow-y:auto;
+	}
+
+.content h1{
+	padding: 30px 0 0 80px;
+	font-family:Raleway;
+	font-size: 40px;
+	}
+.content p {
+	text-align: center;
+	}
+
+.content table {
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.content table img {
+	height: 200px;
+	}
+.content table td {
+		padding: 10px;
+	}
+
+/* Portfolio images CSS ---------------------------- */
