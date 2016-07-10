@@ -1,5 +1,7 @@
 <!doctype html>
+<script src="jquery-3.0.0.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet" type="text/css">
+<link href="animate.css" rel="stylesheet" type="text/css" />
 <link href="main.css" rel="stylesheet" type="text/css">
 <html>
 <head>
@@ -8,6 +10,14 @@
 </head>
 
 <body>
+<script>
+	$(document).ready(function() {
+		$("#target1").addClass('animated fadeInLeft');
+		$("#target2").addClass('animated fadeInLeft');
+		$("#target3").addClass('animated fadeInLeft');
+	});
+
+</script>
 <div id="topcontainer">
 		<div id="sidebar">
 			<img src="zay YT banner.png">
@@ -33,16 +43,15 @@
 
 </div>
 </div>
-
 <div class="supporting">
 	<div class="containter">
-    	<div class="col">
+    	<div class="col" id="target1">
         	<h1>Design.</h1>
         </div>
-        <div class="col">
+        <div class="col" id="target2">
         	<h1>Create.</h1>
         </div>
-        <div class="col">
+        <div class="col" id="target3">
         	<h1>Slay.</h1>
         </div>
     </div>

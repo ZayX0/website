@@ -17,6 +17,7 @@ body{
 
 h1, p {
 	font-family:Raleway;
+	position: relative;
 	}
 
 /* Top third of page --------------------------------- */
@@ -128,6 +129,7 @@ h1, p {
 	text-align: center;
 	width: 30%;
 	}
+
 
 
 /* Content and material ------------------------------ */
