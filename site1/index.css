@@ -18,7 +18,7 @@ html, body {
 
 .header {
   height: 600px;
-  background-color: black;
+  background-image: url('img/mountains.jpg');
   padding-top: 20px;
   position: relative;
   text-align: center;

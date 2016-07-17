@@ -1,0 +1,295 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+.body-bg {
+  background: #DEDEDE;
+}
+
+a, li:not(.top-address) {
+  text-decoration: none;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+  color: #169fe6;
+}
+
+.body-wrapper {
+  width: 1020px;
+  margin: auto;
+  box-shadow: 10px 0 20px #C6C6C6,  -10px 0 20px #C6C6C6;
+  background: white;
+  position: relative;
+}
+
+/* Top and Title */
+
+
+.title-wrapper {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.title {
+  width: 1020px;
+  height: 140px;
+  margin: auto;
+}
+
+h1 {
+  position: absolute;
+  font-size: 50px;
+  color: #169fe6;
+  margin-left: 10px;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+.title h2 {
+  position: absolute;
+  top: 60%;
+  margin: 3px 0 0 10px;
+  color: #888896;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+
+.search-wrapper {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  top: 41%;
+}
+
+.subbtn {
+  border-radius: 10%;
+  margin-left: -4px;
+}
+
+/* Navigation */
+
+.nav-wrapper {
+  width: 100%;
+}
+
+.sitenav {
+  width: 1020px;
+  margin: auto;
+  position:relative;
+  z-index: 1;
+}
+
+.sitenav ul {
+  list-style-type: none;
+  display: table;
+  width: 1020px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+ .sitenav li{
+  display: table-cell;
+  text-align: center;
+  border: 1px solid #169FE6;
+  padding: 10px 0 10px 0;
+  background: black;
+}
+
+.sitenav a {
+  display:block;
+  width: 100%;
+  color: white;
+}
+
+.sitenav li:hover {
+  background-color: #169FE6;
+}
+
+
+ .dropdown {
+  display: inline-block;
+}
+
+.dropcontent {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 240px;
+  margin-top: 10px;
+  border: 1px solid #169FE6;
+}
+
+.dropcontent a {
+  color: white;
+  padding: 10px 0;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropcontent a:hover {
+  background-color: #169FE6;
+}
+
+.dropdown:hover .dropcontent {
+  display:block;
+}
+
+
+/* Jumbotron */
+
+.jumbo-wrapper {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.jumbopic {
+  width: 1020px;
+  height: 450px;
+  margin: auto;
+}
+
+.jumbopic img {
+  width: 1020px;
+  height: 450px;
+}
+
+/* Info Board */
+
+.info-wrapper {
+  width: 65%;
+  float: left;
+}
+
+.info-boxes {
+  width: auto;
+  text-align: center;
+}
+
+.info-headline {
+    background: left 50% repeat-x url(img/pattern-headline.png);
+    text-align: left;
+}
+
+.info-text {
+  background: white;
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+
+.box {
+  width: 280px;
+  height: 214px;
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+}
+
+.bx {
+  width: 30px;
+}
+
+/* Sidebar */
+
+.sidebar {
+  width: 30%;
+  text-align: center;
+  display:inline-block;
+}
+
+.comic-list {
+  list-style-type: none;
+  padding: 0;
+  float:right;
+}
+
+.comic-list img {
+  width: 250px;
+  height: 350px;
+}
+
+/* Main Content */
+
+.content-wrapper {
+  display: inline-block;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.content-wrapper-post {
+  margin-top: 30px;
+  position: relative;
+
+}
+
+.post-title {
+  clear: left;
+  display: block;
+  padding-left: 10px;
+}
+
+.blog-text {
+ display: inline;
+}
+
+.blog-entry-picture {
+  width: 150px;
+  float: left;
+  margin: 0 10px 20px 0;
+}
+
+/* Footer */
+
+.footer {
+  background: black;
+  height: 50px;
+  display: block;
+  position: relative;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: #169FE6
+}
+
+.footer-list {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  color: #ffffff;
+}
+
+.footer-list li {
+  margin-left: 30px;
+  display: inline;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: inline-block;
+  margin: 20px 0 0;
+}
+
+.social-icons li {
+  display: inline;
+  margin-left: 8px;
+}
+
+.social-icons img {
+  width: 20px;
+}
